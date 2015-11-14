@@ -106,6 +106,8 @@ footer {
 	height: 800px;
 	padding: 50px;
 	float: left;
+	background-color: #B3D1AF;
+	color: white;
 }
 
 #events .container {
@@ -128,6 +130,7 @@ footer {
 	height: 800px;
 	padding: 50px;
 	float: right;
+	background-color: #EBEBEB;
 }
 
 #blog-roll .container {
@@ -139,6 +142,7 @@ footer {
 	height: auto;
 	width: 75%;
 	margin-top: 30px;
+	background-color: white;
 }
 
 .blog-image {
@@ -160,6 +164,7 @@ footer {
 	height: 300px;
 	float: left;
 	padding-top: 50px;
+	background-color: #EBEBEB;
 }
 
 #affiliation .container {
@@ -177,6 +182,8 @@ footer {
 	height: 300px;
 	float: right;
 	padding-top: 50px;
+	background-color: #385857;
+	color: white;
 }
 
 #social .container {
