@@ -318,4 +318,8 @@ footer {
 		border: 1px solid black;
 	}
 
+	.mobile-center {
+		text-align: center;
+	}
+
 }
