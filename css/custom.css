@@ -1,0 +1,302 @@
+/*colors*/
+
+/*base color: #6E6D73*/
+
+/* Global */
+
+/* FONTS */
+
+@font-face {
+	font-family: 'goth-font';
+	src: url('../fonts/newsgothlt.ttf');
+}
+
+@font-face {
+	font-family: 'nexa-font';
+	src: url('../fonts/nexablack.ttf');
+}
+
+section {
+	border: 1px solid black;
+}
+
+html,
+body {
+	height: 100%;
+	width: 100%;
+}
+
+.wrapper {
+	min-height: 100%;
+	position: relative;
+}
+
+.body {
+	padding-bottom: 350px;
+	width: 100%;
+	position: absolute;
+}
+
+footer {
+	position: absolute;
+	bottom: 0;
+	width: 100%;
+	height: 350px;
+	border: 1px solid black;
+}
+
+.goth {
+	font-family: 'goth-font';
+}
+
+.goth-bold {
+	font-family: 'goth-font';
+	font-weight: bold;
+}
+
+.nexa {
+	font-family: 'nexa-font';
+}
+
+.nexa-bold {
+	font-family: 'nexa-font';
+	font-weight: bold;
+}
+
+
+.col-centered {
+    float: none;
+    margin: 0 auto;
+}
+
+/*.cotc-nav {
+	height:100px;
+	background:transparent;
+	border:none;
+	color: #000;
+}*/
+
+/* Hero */
+
+#hero {
+	width: 100%;
+	margin-top: 100px;
+}
+
+.btn {
+	border-radius: 0;
+	background-color: transparent;
+	border: 1px solid black;
+}
+
+/* Mission */
+
+#mission {
+	padding: 50px;
+}
+
+#mission button {
+	margin-top: 20px;
+}
+
+/* Events */
+
+#events {
+	width: 50%;
+	height: 800px;
+	padding: 50px;
+	float: left;
+}
+
+#events .container {
+	max-width: 100%;
+}
+
+#events li {
+	font-size: 16pt;
+	padding: 10px;
+}
+
+#events .row {
+	padding-bottom: 20px;
+}
+
+/* Blog-Roll */
+
+#blog-roll {
+	width: 50%;
+	height: 800px;
+	padding: 50px;
+	float: right;
+}
+
+#blog-roll .container {
+	max-width: 100%;
+}
+
+.blog-excerpt {
+	border: 1px solid black;
+	height: auto;
+	width: 75%;
+	margin-top: 30px;
+}
+
+.blog-image {
+	width: 
+}
+
+.blog-excerpt header {
+	padding: 20px;
+}
+
+.blog-text-excerpt {
+	padding: 20px 20px;
+}
+
+/* Affilation */
+
+#affiliation {
+	width: 75%;
+	height: 300px;
+	float: left;
+	padding-top: 50px;
+}
+
+#affiliation .container {
+	max-width: 100%;
+}
+
+#affiliation li {
+	font-size: 16px;
+}
+
+/* Social */
+
+#social {
+	width: 25%;
+	height: 300px;
+	float: right;
+	padding-top: 50px;
+}
+
+#social .container {
+	max-width: 100%;
+}
+
+.social-icons {
+	float: left;
+}
+
+.footer-nav {
+	float: right;
+	list-style: none;
+	padding-right: 50px;
+	line-height: 35px;
+}
+
+.footer-nav ul {
+	list-style: none;
+}
+
+
+/* Copyright */
+
+#copyright {
+	height: 50px;
+	width: 100%;
+	clear: both;
+	display: table;
+}
+
+#copyright .row {
+	display: table-cell; 
+	vertical-align: middle;
+}
+
+@media only screen and (max-width: 768px) {
+	#events {
+		width: 100%;
+		height: 800px;
+		padding: 50px;
+		float: none;
+		display: table;
+	}
+
+	#events .container {
+		display: table-cell;
+		vertical-align: middle;
+	}
+
+	#blog-roll {
+		width: 100%;
+		height: 800px;
+		padding: 50px;
+		float: none;
+		display: table;
+	}
+
+	#blog-roll .container {
+		display: table-cell;
+		vertical-align: middle;
+	}
+
+	.blog-excerpt {
+		border: 1px solid black;
+		height: auto;
+		width: 75%;
+		margin-top: 30px;
+	}
+
+	#affiliation {
+		width: 100%;
+		height: 300px;
+		float: none;
+		padding-top: 25px;
+		padding-bottom: 25px;
+	}
+
+	#social {
+		width: 100%;
+		height: 300px;
+		float: none;
+		padding-top: 25px;
+		padding-bottom: 25px;
+	}
+
+	footer {
+		height: 650px;
+	}
+
+	.body {
+		padding-bottom: 650px;
+		width: 100%;
+		position: absolute;
+	}
+
+}
+
+@media only screen and (max-width: 480px) {
+
+	.blog-excerpt {
+		max-height: 484px;
+		overflow: scroll;
+		width: 100%;
+	}
+
+	#affiliation {
+		height: auto;
+	}
+
+	#social {
+		height: auto;
+	}
+
+	#copyright {
+		height: auto;
+	}
+
+	footer {
+		height: auto;
+	}
+
+}

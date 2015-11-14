@@ -9,6 +9,14 @@
 
     <!-- Bootstrap -->
     <link href="css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="css/custom.css">
+
+    <!-- Font-Awesome -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css">
+
+    <!-- TypeKit Fonts -->
+    <script src="https://use.typekit.net/tob0fgf.js"></script>
+    <script>try{Typekit.load({ async: true });}catch(e){}</script>
 
     <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
     <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
@@ -20,7 +28,7 @@
   <body>
     <div id="wrapper">
       <header>
-      <nav class="navbar navbar-default navbar-fixed-top" role="navigation" style="height:100px; background:transparent; border:none;">
+      <nav class="navbar navbar-default navbar-fixed-top cotc-nav goth" role="navigation" style="height:100px; background:white; border:none; margin:0;">
         <div class="container" style="height:100px;">
           <div class="navbar-header">
             <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse" style="margin-top:25px; border:none; border-radius:0;">
@@ -31,9 +39,9 @@
             </button>
             <a class="pull-left" href="#"><img src="img/logo.png" width="115px;" height="100px;"></a>
           </div><!-- NAVBAR-HEADER -->
-          <div class="navbar-collapse collapse">
+          <div class="navbar-collapse collapse" style="background-color:white;">
             <ul class="nav navbar-nav navbar-right" style="padding-top:25px;">
-              <li class="active"><a href="index.html">Home</a></li>
+              <li><a href="index.html">Home</a></li>
               <li><a href="about.html">About Us</a></li>
               <li><a href="getinvolved.html">Get Involved</a></li>
               <li><a href="#">Contact</a></li>
@@ -43,11 +51,157 @@
         </div><!-- CONTAINER -->
       </nav><!-- NAVBAR -->
     </header>
+
+    <div class="body">
+
+      <section id="hero">
+        <img src="img/hero.jpg" class="image-responsive" width="100%;">
+      </section>
+
+      <section id="mission">
+        <div class="container">
+          <div class="row">
+            <div class="col-md-9 col-centered">
+              <h3 class="goth-bold text-center">Church of the Cross is a community that is committed to following Jesus, loving people, and
+  engaging San Diego with the gospel.</h3>
+            </div><!-- col -->
+          </div><!-- row -->
+          <div class="row">
+            <div class="col-md-3 col-centered">
+              <button class="btn btn-lg btn-block goth">Learn More About Us</button>
+            </div><!-- col -->
+          </div><!-- row -->
+        </div><!-- container -->
+      </section><!-- mission -->
+
+      <section id="events">
+        <div class="container">
+          <div class="row">
+            <div class="col-md-4 col-centered">
+                <h2 class="goth-bold">
+                  <i class="fa fa-calendar-minus-o"></i> Upcoming Events
+                </h2>
+            </div><!-- col -->
+          </div><!-- row -->
+          <div class="row">
+            <div class="col-md-7 goth col-centered">
+              <ul>
+                <li>Vision &amp; Informational Gathering (Nov. 2015 and Jan. 2016)</li>
+                <li>Begin bi-weekly Worship Gatherings (Jan. 2016)</li>
+                <li>Begin weekly Community Group(s) (Feb. 2016)</li>
+                <li>Public Sunday service launch (Fall 2016)</li>
+              </ul>
+            </div>
+          </div><!-- row -->
+        </div><!-- container -->
+      </section><!-- events -->
+
+      <section id="blog-roll">
+        <div class="container">
+          <div class="row">
+            <div class="col-md-6 col-centered">
+                <h2 class="goth-bold">
+                  <i class="fa fa-book"></i> The Latest from the Blog...
+                </h2>
+            </div><!-- col -->
+          </div><!-- row -->
+          <article class="blog-excerpt col-centered">
+            <header>
+              <div class="row">
+                <div class="col-md-4">
+                  <h4 class="goth-bold">Blog Title</h4>
+                </div>
+              </div>
+              <div class="row">
+                <div class="col-md-8">
+                  <p class="goth" style="padding-left:30px;">John Darrow 11/13/15</p>
+                </div>
+              </div>
+            </header>
+            <div class="blog-image">
+              <img src="img/blog-image.jpg" class="img-responsive">
+            </div>
+            <div class="blog-text-excerpt">
+              <p class="goth-bold">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc tellus libero, eleifend ut feugiat eget, facilisis quis lectus. Morbi enim purus, interdum at velit et, ullamcorper fringilla massa. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc tellus libero, eleifend ut feugiat eget, facilisis quis lectus. Morbi enim purus, interdum at velit et, ullamcorper fringilla massa.</p>
+            </div>
+          </article>
+         </div><!-- container --> 
+      </section><!-- blog-roll -->
+      <footer id="footer">
+        <section id="affiliation">
+          <div class="container">
+            <div class="row">
+            <div class="col-md-1 col-md-offset-2">
+                <h2 class="goth">
+                  Affiliations
+                </h2>
+            </div><!-- col -->
+          </div><!-- row -->
+          <div class="row">
+            <div class="col-md-9 col-md-offset-2">
+                <h4 class="goth-bold">
+                  Church of the Cross is being supported by, and partnering with, the following churches,
+  denominations, and networks:
+                </h4>
+            </div><!-- col -->
+          </div><!-- row -->
+          <div class="row">
+            <div class="col-md-10 col-md-offset-2">
+                <ul class="goth">
+                  <li>Southern Baptist Convention (www.sbc.net)</li>
+                  <li>North American Mission Board (www.namb.net)</li>
+                  <li>Reunion Church – Santee, CA (www.myreunionchurch.org)</li>
+                </ul>
+            </div><!-- col -->
+          </div><!-- row -->
+        </div><!-- container -->
+        </section><!-- affilation -->
+        <section id="social">
+          <div class="container">
+            <div class="social-icons">
+              <div class="row">
+                <div class="col-md-1 col-md-offset-1">
+                  <i class="fa fa-facebook-square fa-4x"></i>
+                </div>
+              </div><!-- row -->
+              <div class="row">
+                <div class="col-md-1 col-md-offset-1">
+                  <i class="fa fa-twitter-square fa-4x"></i>
+                </div>
+              </div><!-- row -->
+              <div class="row">
+                <div class="col-md-1 col-md-offset-1">
+                  <i class="fa fa-instagram fa-4x"></i>
+                </div>
+              </div><!-- row -->
+            </div><!-- social icons -->
+            <div class="footer-nav">
+              <ul>
+                <li>Home</li>
+                <li>About Us</li>
+                <li>Get Involved</li>
+                <li>Contact Us</li>
+                <li>Blog</li>
+              </ul>
+            </div><!-- footer-nav-->
+          </div><!-- container -->
+        </section><!-- social -->
+        <section id="copyright">
+          <div class="row">
+            <div class="col-md-3 col-centered goth-bold">
+              <p>&copy; 2015 Church of the Cross ALL RIGHTS RESERVED</p> 
+            </div>
+          </div>
+        </section><!-- copyright -->
+      </footer>
+
+    </div><!-- body -->
     </div><!-- wrapper -->
 
     <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
     <!-- Include all compiled plugins (below), or include individual files as needed -->
     <script src="js/bootstrap.min.js"></script>
+    <script type="text/javascript"></script>
   </body>
 </html>
