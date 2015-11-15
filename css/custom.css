@@ -213,6 +213,21 @@ footer {
 	vertical-align: middle;
 }
 
+@media only screen and (max-width: 1020px) {
+	#affiliation {
+		width: 50%;
+		height: 300px;
+		padding-top: 25px;
+		padding-bottom: 25px;
+	}
+
+	#social {
+		width: 50%;
+		height: 300px;
+		padding-top: 50px;
+	}
+}
+
 @media only screen and (max-width: 768px) {
 	#events {
 		width: 100%;
