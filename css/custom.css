@@ -309,7 +309,7 @@ footer #affiliation a {
 /* About */
 
 #sidebar {
-	width: 50%;
+	width: 45%;
 	margin-top: 200px;
 	margin-bottom: 100px;
 	height: 500px;
@@ -356,6 +356,7 @@ footer #affiliation a {
 	margin-bottom: 100px;
 	height: auto;
 	float: right;
+	margin-right: 5%;
 }
 
 #main-content .container {
