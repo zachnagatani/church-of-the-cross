@@ -76,6 +76,16 @@ footer {
 	color: #000;
 }*/
 
+.bg-visible {
+		background: rgba(255,255,255,0.8);
+		padding: 40px;
+	}
+
+.bg-visible-dark {
+	background: rgba(0, 0, 0, 0.8);
+	padding: 20px;
+}
+
 /* Hero */
 
 #hero {
@@ -106,6 +116,9 @@ footer {
 	height: 800px;
 	padding: 50px;
 	float: left;
+	background: url('../img/events-bg.png') center;
+	background-size: cover;
+	color: white;
 }
 
 #events .container {
@@ -139,6 +152,8 @@ footer {
 	height: auto;
 	width: 75%;
 	margin-top: 30px;
+	background-color: white;
+	color: #333;
 }
 
 .blog-image {
@@ -226,6 +241,7 @@ footer {
 		height: 300px;
 		padding-top: 50px;
 	}
+
 }
 
 @media only screen and (max-width: 768px) {
@@ -235,6 +251,7 @@ footer {
 		padding: 50px;
 		float: none;
 		display: table;
+		background-attachment: fixed;
 	}
 
 	#events .container {
