@@ -373,6 +373,7 @@ footer #affiliation a {
 	#events .container {
 		overflow: scroll;
 	}
+
 }
 
 @media only screen and (max-width: 1020px) {
@@ -389,6 +390,46 @@ footer #affiliation a {
 		height: 300px;
 		padding-top: 50px;
 		padding-left: 50px;
+	}
+
+}
+
+@media only screen and (max-width: 992px) {
+
+	#sidebar {
+		width: 100%;
+		margin-top: 200px;
+		margin-bottom: 100px;
+		height: 500px;
+		float: none;
+	}
+
+	#main-content {
+		width: 100%;
+		margin-top: 100px;
+		margin-bottom: 100px;
+		height: auto;
+		float: none;
+		margin-right: 5%;
+	}
+
+	#sidebar .container {
+		width: 100%;
+	}
+
+	#about-sidebar {
+		border: 1px solid black;
+		width: 100%;
+		height: 400px;
+		position: static;
+		display: table;
+	}
+
+	#about-sidebar ul {
+		padding: 100px;
+		line-height: 50px;
+		display: table-cell;
+		vertical-align: middle;
 	}
 
 }
