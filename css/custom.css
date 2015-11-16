@@ -116,7 +116,7 @@ footer {
 	height: 800px;
 	padding: 50px;
 	float: left;
-	background: url('../img/events-bg.png') center;
+	background: url('../img/events-bg.jpg') center;
 	background-size: cover;
 	color: white;
 }
@@ -141,6 +141,7 @@ footer {
 	height: 800px;
 	padding: 50px;
 	float: right;
+	background: url('../img/crossword.png');
 }
 
 #blog-roll .container {
