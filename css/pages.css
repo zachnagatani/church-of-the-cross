@@ -34,7 +34,6 @@ body {
 .body {
 	padding-bottom: 350px;
 	width: 100%;
-	position: absolute;
 }
 
 nav li a:hover {
@@ -313,7 +312,6 @@ footer #affiliation a {
 	margin-top: 200px;
 	margin-bottom: 100px;
 	height: 500px;
-	float: left;
 }
 
 #sidebar .container {
@@ -322,47 +320,9 @@ footer #affiliation a {
 
 #about-sidebar {
 	border: 1px solid black;
+	height: 500px;
 	width: 300px;
-	height: 400px;
-	position: fixed;
-	display: table;
 }
-
-#about-sidebar ul {
-	padding-left: 75px;
-	line-height: 50px;
-	display: table-cell;
-	vertical-align: middle;
-}
-
-#about-sidebar li {
-	list-style-type: none;
-}
-
-#about-sidebar a:hover {
-	color: inherit;
-	text-decoration: underline;
-}
-
-.font-16 {
-	font-size: 16px;
-}
-
-/* Main-Content */
-
-#main-content {
-	width: 50%;
-	margin-top: 100px;
-	margin-bottom: 100px;
-	height: auto;
-	float: right;
-}
-
-#main-content .container {
-	max-width: 100%;
-	height: auto;
-}
-
 
 @media only screen and (max-width: 1200px) {
 	#blog-roll .container {
