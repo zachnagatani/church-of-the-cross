@@ -99,6 +99,10 @@ footer #affiliation a {
     margin: 0 auto;
 }
 
+ol li {
+	padding-top: 20px;
+}
+
 /*.cotc-nav {
 	height:100px;
 	background:transparent;
@@ -164,6 +168,20 @@ footer #affiliation a {
 .btn-white-black {
 	background-color: white;
 	color: black;
+	border: 1px solid black;
+	transition: color .5s, background-color .5s, border .5s;
+}
+
+.btn-contact:hover {
+	background-color: white!important;
+	color: black;
+	border: 1px solid #333;
+	transition: color .5s, background-color .5s, border .5s;
+}
+
+.btn-contact {
+	background-color: #727376!important;
+	color: white;
 	border: 1px solid black;
 	transition: color .5s, background-color .5s, border .5s;
 }
