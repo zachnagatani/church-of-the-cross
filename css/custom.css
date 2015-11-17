@@ -443,10 +443,11 @@ footer #affiliation a {
 		height: 400px;
 		position: static;
 		display: table;
+		margin-top: 5%;
 	}
 
 	#about-sidebar ul {
-		padding: 100px;
+		padding: 0px;
 		line-height: 50px;
 		display: table-cell;
 		vertical-align: middle;
@@ -584,10 +585,18 @@ footer #affiliation a {
 		text-align: center;
 	}
 
+	#about-sidebar {
+		margin-top: 10%;
+	}
+
 }
 
 @media screen only and (max-width: 320px) {
 	.blog-roll .container {
 		width: 100%;
+	}
+
+	#about-sidebar {
+		margin-top: 20%;
 	}
 }
