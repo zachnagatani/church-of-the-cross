@@ -140,13 +140,28 @@ footer #affiliation a {
 
 .btn-white:hover,
 .btn-white:focus {
-	background-color: black;
+	background-color: #727376;
 	color: white;
 	border: 1px solid #333;
 	transition: color .5s, background-color .5s, border .5s;
 }
 
 .btn-white {
+	background-color: white;
+	color: black;
+	border: 1px solid black;
+	transition: color .5s, background-color .5s, border .5s;
+}
+
+.btn-white-black:hover,
+.btn-white-black:focus {
+	background-color: #727376;
+	color: white;
+	border: 1px solid #333;
+	transition: color .5s, background-color .5s, border .5s;
+}
+
+.btn-white-black {
 	background-color: white;
 	color: black;
 	border: 1px solid black;
@@ -310,7 +325,7 @@ footer #affiliation a {
 
 #sidebar {
 	width: 45%;
-	margin-top: 200px;
+	margin-top: 150px;
 	margin-bottom: 100px;
 	height: 500px;
 	float: left;
@@ -321,7 +336,7 @@ footer #affiliation a {
 }
 
 #about-sidebar {
-	border: 1px solid black;
+	
 	width: 300px;
 	height: 400px;
 	position: fixed;
@@ -329,7 +344,6 @@ footer #affiliation a {
 }
 
 #about-sidebar ul {
-	padding-left: 75px;
 	line-height: 50px;
 	display: table-cell;
 	vertical-align: middle;
@@ -337,11 +351,11 @@ footer #affiliation a {
 
 #about-sidebar li {
 	list-style-type: none;
+	padding-top: 10px;
 }
 
 #about-sidebar a:hover {
-	color: inherit;
-	text-decoration: underline;
+	color: white;
 }
 
 .font-16 {
@@ -358,6 +372,11 @@ footer #affiliation a {
 	float: right;
 	margin-right: 5%;
 }
+
+#main-content hr {
+	border-color: #333;
+}
+
 
 #main-content .container {
 	max-width: 100%;
@@ -398,15 +417,17 @@ footer #affiliation a {
 
 	#sidebar {
 		width: 100%;
-		margin-top: 200px;
-		margin-bottom: 100px;
+		margin-top: 100px;
+		margin-bottom: 0px;
 		height: 500px;
 		float: none;
+		border-bottom: 1px solid #333;
+		background-color: #727376;
 	}
 
 	#main-content {
 		width: 100%;
-		margin-top: 100px;
+		margin-top: 0px;
 		margin-bottom: 100px;
 		height: auto;
 		float: none;
@@ -418,7 +439,6 @@ footer #affiliation a {
 	}
 
 	#about-sidebar {
-		border: 1px solid black;
 		width: 100%;
 		height: 400px;
 		position: static;
@@ -430,6 +450,25 @@ footer #affiliation a {
 		line-height: 50px;
 		display: table-cell;
 		vertical-align: middle;
+	}
+
+	.medium-center {
+		text-align: center;
+	}
+
+	.btn-white-black:hover,
+	.btn-white-black:focus {
+		background-color: white;
+		color: #727376 !important;
+		border: 1px solid #333;
+		transition: color .5s, background-color .5s, border .5s;
+	}
+
+	.btn-white-black {
+		background-color: #727376;
+		color: white;
+		border: 1px solid white;
+		transition: color .5s, background-color .5s, border .5s;
 	}
 
 }
