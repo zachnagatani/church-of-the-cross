@@ -6,6 +6,10 @@
 
 /* FONTS */
 
+.input-lg {
+	border-radius: 0;
+}
+
 @font-face {
 	font-family: 'goth-font';
 	src: url('../fonts/newsgothlt.ttf');
@@ -401,6 +405,9 @@ ol li {
 	height: auto;
 }
 
+#main-content button {
+	margin-top: 50px;
+}
 
 @media only screen and (max-width: 1200px) {
 	#blog-roll .container {
