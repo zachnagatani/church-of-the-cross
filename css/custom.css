@@ -194,7 +194,10 @@ ol li {
 
 #hero {
 	width: 100%;
+	height: 650px;
 	margin-top: 100px;
+	background: url('../img/15.png') center;
+	background-size: cover;
 }
 
 .btn {
@@ -215,8 +218,18 @@ ol li {
 
 /* Events */
 
-#events {
+/*#events {
 	width: 50%;
+	height: 800px;
+	padding: 50px;
+	float: left;
+	background: url('../img/events-bg.jpg') center;
+	background-size: cover;
+	color: white;
+}*/
+
+#events {
+	width: 100%;
 	height: 800px;
 	padding: 50px;
 	float: left;
@@ -228,6 +241,7 @@ ol li {
 #events .container {
 	max-width: 100%;
 	max-height: 100%;
+	margin-top: 150px;
 }
 
 #events li {
@@ -414,9 +428,9 @@ ol li {
 		overflow: scroll;
 	}
 
-	#events .container {
+	/*#events .container {
 		overflow: scroll;
-	}
+	}*/
 
 }
 
@@ -502,7 +516,7 @@ ol li {
 @media only screen and (max-width: 768px) {
 	#events {
 		width: 100%;
-		height: 800px;
+		height: auto;
 		padding: 50px;
 		float: none;
 		display: table;
