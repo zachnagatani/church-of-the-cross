@@ -194,14 +194,14 @@ ol li {
 
 #hero {
 	width: 100%;
-	height: 650px;
+	height: 750px;
 	margin-top: 100px;
 	background: url('../img/15.png') center;
 	background-size: cover;
 }
 
 #hero img {
-	padding-top: 100px;
+	padding-top: 125px;
 }
 
 .btn {
@@ -237,7 +237,8 @@ ol li {
 	height: auto;
 	padding: 50px;
 	float: left;
-	background-color: #155747;
+	background: url('../img/event-back.jpg') center;
+	background-size: cover;
 	color: white;
 }
 
