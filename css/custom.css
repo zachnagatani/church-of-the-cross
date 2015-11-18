@@ -146,8 +146,7 @@ ol li {
 	transition: color .35s;
 }
 
-.btn-white:hover,
-.btn-white:focus {
+.btn-white:hover {
 	background-color: #727376;
 	color: white;
 	border: 1px solid #333;
@@ -161,8 +160,7 @@ ol li {
 	transition: color .5s, background-color .5s, border .5s;
 }
 
-.btn-white-black:hover,
-.btn-white-black:focus {
+.btn-white-black:hover {
 	background-color: #727376;
 	color: white;
 	border: 1px solid #333;
@@ -196,7 +194,7 @@ ol li {
 	width: 100%;
 	height: 750px;
 	margin-top: 100px;
-	background: url('../img/15.png') center;
+	background: url('../img/15.png') center fixed;
 	background-size: cover;
 }
 
@@ -214,6 +212,7 @@ ol li {
 
 #mission {
 	padding: 50px;
+	color: #444;
 }
 
 #mission button {
@@ -237,7 +236,7 @@ ol li {
 	height: 800px;
 	padding: 50px;
 	float: left;
-	background: url('../img/event-back.jpg') center;
+	background: url('../img/event-back.jpg') center fixed;
 	background-size: cover;
 	color: white;
 }
@@ -305,7 +304,7 @@ ol li {
 	height: 300px;
 	float: left;
 	padding-top: 50px;
-	background-color: #FFD03C;
+	background-color: #727376;
 	color: white;
 }
 
@@ -324,7 +323,7 @@ ol li {
 	height: 300px;
 	float: right;
 	padding-top: 50px;
-	background-color: #FFD03C;
+	background-color: #727376;
 	color: white;
 }
 
@@ -341,7 +340,6 @@ ol li {
 	list-style: none;
 	padding-right: 50px;
 	line-height: 35px;
-	color: #444;
 }
 
 .footer-nav ul {
@@ -356,8 +354,8 @@ ol li {
 	width: 100%;
 	clear: both;
 	display: table;
-	color: white;
-	background-color: #727376;
+	color: #444;
+	background-color: #fff;
 }
 
 #copyright .row {
@@ -512,8 +510,7 @@ ol li {
 		text-align: center;
 	}
 
-	.btn-white-black:hover,
-	.btn-white-black:focus {
+	.btn-white-black:hover {
 		background-color: white;
 		color: #727376 !important;
 		border: 1px solid #333;
@@ -570,7 +567,6 @@ ol li {
 		float: none;
 		padding-top: 25px;
 		padding-bottom: 25px;
-		border-bottom: 1px solid black;
 	}
 
 	#social {
@@ -579,6 +575,10 @@ ol li {
 		float: none;
 		padding-top: 50px;
 		padding-bottom: 25px;
+	}
+
+	.footer-nav {
+		color: white;
 	}
 
 	footer {
